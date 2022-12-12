@@ -1,0 +1,31 @@
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1}{\ignorespaces All symbol tokens}}{5}{}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Action tokens}}{6}{}%
+\contentsline {figure}{\numberline {3}{\ignorespaces The setting menu item}}{7}{}%
+\contentsline {figure}{\numberline {4}{\ignorespaces The option menu}}{8}{}%
+\contentsline {figure}{\numberline {5}{\ignorespaces The chess board}}{9}{}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Players' hands}}{10}{}%
+\contentsline {figure}{\numberline {7}{\ignorespaces The combinations of scoring points}}{10}{}%
+\contentsline {figure}{\numberline {8}{\ignorespaces The display of team scores}}{11}{}%
+\contentsline {figure}{\numberline {9}{\ignorespaces The label of current players}}{11}{}%
+\contentsline {figure}{\numberline {10}{\ignorespaces The demonstration of action tokens}}{11}{}%
+\contentsline {figure}{\numberline {11}{\ignorespaces The menu bar in the second window}}{12}{}%
+\contentsline {figure}{\numberline {12}{\ignorespaces The second interface - player scene}}{12}{}%
+\contentsline {figure}{\numberline {13}{\ignorespaces The winning message}}{15}{}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Exchange Token Warning}}{16}{}%
+\contentsline {figure}{\numberline {15}{\ignorespaces The chosen file is not exist}}{17}{}%
+\contentsline {figure}{\numberline {16}{\ignorespaces The alert of wrong player amount}}{17}{}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Terminate AI Running}}{18}{}%
+\contentsline {figure}{\numberline {18}{\ignorespaces No available token hand}}{19}{}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {19}{\ignorespaces The Structure of callback function.}}{29}{}%
+\contentsline {figure}{\numberline {20}{\ignorespaces The classes diagram}}{30}{}%
+\contentsline {figure}{\numberline {21}{\ignorespaces The GUI package}}{31}{}%
+\contentsline {figure}{\numberline {22}{\ignorespaces The Logic package}}{32}{}%
+\contentsline {figure}{\numberline {23}{\ignorespaces The relationship between GameLogic class and other classes.}}{33}{}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Pack and Hand}}{34}{}%
+\contentsline {figure}{\numberline {25}{\ignorespaces The sequence of Enum tokens}}{35}{}%
+\contentsline {figure}{\numberline {26}{\ignorespaces The Move and Position class.}}{35}{}%
+\contentsline {figure}{\numberline {27}{\ignorespaces The GraphDataJson class and GameLogic class.}}{35}{}%
+\contentsline {figure}{\numberline {28}{\ignorespaces The representation of GSON}}{36}{}%
+\contentsline {figure}{\numberline {29}{\ignorespaces The representation of Log file}}{37}{}%

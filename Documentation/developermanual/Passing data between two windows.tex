@@ -1,0 +1,30 @@
+\subsection{Passing data between two windows}
+
+\subsubsection{Problem analysis}
+
+The following analysis and description refer to how could the players' data be transferred from a Scene B controller to a Scene A controller which is the primary interface. To do so, two ways could be implemented. None of them is the perfect solution, but each has benefits and downsides to being considered in a different situation.
+
+\paragraph{A class Controller } \mbox{}\\
+
+Logically, when an FXML file is created in Scene B, the IDE automatically creates a controller with it and uses the root tag to link it together. Also, this controller can create a new instance in the B class, however, if we want to pass information to another controller. An instance must be created manually in class A which will accept the new information and use this new instance to obtain the accessibility of all public methods which is necessary to be used.  
+
+\paragraph{The singleton pattern} \mbox{}\\
+
+An idea of the singleton pattern is that two classes use the same instance of the singleton class. This class contains all the necessary information that needs to be passed. In other words, this singleton class has a getter and setter function that is able to get the data and also set the data for different situations. Broadly speaking, it can be treated as a database. 
+
+\subsubsection{Realization analysis}
+
+This project is passing information related to players. All players' data that need to be transferred is analyzed in several attributes. Those attributes can be treated as objects. A getter and setter function is important to exist and is utilized in the progress of passing data. The explanation of these two tools is described below.   
+
+\begin{enumerate}
+	\item\textbf{Controller Instance }\\
+    An instance of a scene controller can be displayed as a class object. In addition, the direction of passing information can decide which controller class should obtain the instance. Normally, the class which accepts data has the demands to require this instance. 
+   
+    \item\textbf{Getter and Setter }\\
+     Getter and setter functions are used frequently when the data is transferred. Every passing attribute needs its own getter in order to get the data. In the meantime, the setter can be utilized purposely in some situations where the attribute needs to set some value.    
+     
+
+\end{enumerate}
+
+\subsubsection{Realization description}
+Using the controller instance is a prompt instrument for transferring all needed data. Regarding all the attributes that need to be passed and updated in this project, there are only four attributes that need to consider. For instance, the players' names, the active state, and the state represent whether the player is a human or a bot and the amount number of players in a round. Broadly speaking, there is not so much information that needs to be passed. Therefore, a controller calling is thoroughly enough for these demands.

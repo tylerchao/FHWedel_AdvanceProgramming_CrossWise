@@ -1,0 +1,102 @@
+\subsection{AI algorithm}
+In this section of testing removing the action token for AI, there are three main essential to evaluate: Has six same tokens for the current team, prevent another team from reaching six tokens, and achieve the best score. Additionally, this testing includes external files. Follow the steps below: 
+
+\begin{itemize}
+	\item Check the folder "AI algorithm", and the subfolder "remove token".
+	\item Select which teams: "Orange" and "Green".
+	\item Each had three test cases. 
+\end{itemize}
+
+
+\subsubsection{Symbol Token}	
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{p{7cm}@{\hskip 5mm}  p{7cm}} 
+		\toprule
+		Test case   & Result   \\ 
+		\midrule
+		\midrule
+         While there are no action tokens on hand and the current team has a specific token to accomplish the six in a line, this specific token need to be chosen and placed where it should be. In fact, the coordinate of lacking the specific token must be empty as a condition. & The expectation is that the player could place the right token in the right place. And the result shows as expected. \\
+		\midrule
+	     While there are no action tokens on hand and the opposite team has a specific token to cease the six tokens accomplished by the opposite team  this specific token need to be chosen and placed where it should be. In fact, the coordinate of lacking the specific token must be empty as a condition. & The expectation is that the player could place the right token in the right place to interrupt the opposite team win a game. And the result shows as expected. \\
+		\midrule
+		 Generally speaking, when the player has a series token on hand and achieving the best score is the priority of the game. And the symbol token needs to accomplish this goal.  The test case is that the current player will use one of the symbols tokens to achieve the best score for his/her team. & The expectation is that the difference between the two team scores should be as large as possible. And the result is shown as expected even though there is no chance to reduce the opposite team.    \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\newpage
+\subsubsection{Remove Token}	
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{p{7cm}@{\hskip 5mm}  p{7cm}} 
+		\toprule
+		Test case   & Result   \\ 
+		\midrule
+		\midrule
+		The current team has a chance to complete six same tokens. Use remove token to remove the unique Token on a line that has accumulated five same tokens.  & The expectation is that the unique token has been removed and returned back to the players' hands. And the result shows as expected. \\
+		\midrule
+	    The opposite team has a chance to complete six same tokens. Use remove token to remove one of the same Tokens on a line that has accumulated five same tokens. & The expectation is that the coordinate of the removed token is smaller the further it is up and the further it is to the left. And the result shows as expected.  \\
+		\midrule
+	    The current has a full action token on hand including one remove token, which has the smallest index on the hand. The test case is that the current player will use this removed token to achieve the best score for his/her team. & The expectation is that the difference between the two team scores should be as large as possible. And the result is shown as expected even though there is no chance to reduce the opposite team.     \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\newpage
+\subsubsection{Shifter Token}
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{p{7cm}@{\hskip 5mm}  p{7cm}} 
+		\toprule
+		Test case   & Result   \\ 
+		\midrule
+		\midrule
+	     The current team has a chance to complete six same tokens. Use shift token to shift the unique Token on a line that has accumulated five same tokens to the empty cell on the line.  & The expectation is that the unique token has been founded on the board and shifted to the empty cell of the line in order to complete six tokens. And the result shows as expected. \\
+		\midrule
+		The opposite team has a chance to complete six same tokens. Use a shifter token to shift one of the same Tokens on a line that has accumulated five same tokens to the empty cell which has the smallest row and column. & The expectation is that the coordinate of the shifter token start from the first same token of the line and the target empty coordinate is smaller the further it is up and the further it is to the left. And the result shows as expected.  \\
+		\midrule
+		The current has a full action token on hand including one shifter token, which appears on the smallest hand index. The test case is that the current player will use this shifter token to achieve the best score for his/her team. & The expectation is that the difference between the two team scores should be as large as possible. And the program will find the token that can cause the smallest effect on the current team and the most serious losing point to the opposite team. And the result is shown as expected. \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\newpage
+\subsubsection{Exchange Token}
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{p{7cm}@{\hskip 5mm}  p{7cm}} 
+		\toprule
+		Test case   & Result   \\ 
+		\midrule
+		\midrule
+		The current team has a chance to complete six same tokens. Use Exchange token to Exchange the unique Token on a line that has accumulated five same tokens to the position which acquired this unique token.  & The expectation is that the unique token has been founded and switched to the position in which the line has had five same tokens.If there are two needed tokens appear on board, then the program chooses the smallest row and column index. And the result shows as expected. \\
+		\midrule
+		The opposite team has a chance to complete six same tokens. Use Exchange token to exchange one of the same Tokens on a line that has accumulated five same tokens to the token which is located as close as the left top corner. & The expectation is that one of the exchanging tokens is decided as the lowest index on the line no matter what row or column. And another exchanging token is the token that appears closest to the left top of the chess board. And the result shows as expected.  \\
+		\midrule
+		The current has a full action token on hand including one Exchange token, which has the smallest index on the hand. The test case is that the current player will use this Exchange token to achieve the best score for his/her team. & The expectation is that the difference between the two team scores should be as large as possible. And the program will find the token that can cause the smallest effect on the current team and the most serious losing point to the opposite team. And the result is shown as expected even though there is no chance to reduce the opposite team.     \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\newpage
+\subsubsection{Replace Token}
+In the test case of the Replace token, only two considerations are being tested. The "Achieve the best score" test is not unable to implement in the case of the Replace tokens. Because of the characteristic of the Replace token, it needs to contain at least one symbol token on the token hand. However, according to the designing logic, achieving the best score always start from the symbol token.
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{p{7cm}@{\hskip 5mm}  p{7cm}} 
+		\toprule
+		Test case   & Result   \\ 
+		\midrule
+		\midrule
+    	The current team has a chance to complete six same tokens. Use Replace token to switch the needed Token on a line that has accumulated five same tokens to the cell which needed this special token.  & The expectation is that the unique token has been switched with the token, which appears on the gap of the line and it returns back to the player's hand. And the result shows as expected. \\
+		\midrule
+    	The opposite team has a chance to complete six same tokens. Use Replace token to switch one of the same Tokens on a line that has accumulated five same tokens with one token on hand, which is not related to the line. & The expectation is that the index of the replaced token from hand is as low as possible. And this token must be different from that special token on the line. And another switching token also has the lowest index of column and row.  And the result shows as expected.  \\
+		\bottomrule
+	\end{tabular}
+\end{table}

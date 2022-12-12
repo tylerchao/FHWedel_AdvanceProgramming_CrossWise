@@ -1,0 +1,33 @@
+\subsection{A moving animation for board}
+
+\subsubsection{Problem analysis}
+
+Considering that the game can be played with all AI players, the running time of the whole game is considerably fast and uninterrupted. Hence, in order to slow down the whole running process for the whole game, completing a token action and utilizing an animation is considered. 
+
+Indeed, there are some possible animation types that can be utilized, The following description explains two different kinds of animation that are being considered.  
+
+\paragraph{Translate Transition} \mbox{}\\
+
+The TranslateTransition is represented by the class javafx.animation.TranslateTransition. It can translate the node from one position to another position depending on the specified duration. Those positions are defined by providing the translateX and translateY properties of the node. Also, the speed of the transition can be specified by the user. 
+
+\paragraph{Fade Transition} \mbox{}\\
+In JavaFx, the class javafx.animation.FadeTransition represents FadeTransition. It animates the opacity of the node so that the image color of the node becomes dull. Also, the specified duration also can be determined by the user. 
+
+\subsubsection{Realization analysis}
+Due to the logical approach of this designed game, the fade transition could be the most efficient and achievable method to reach our target. Here have some specific features to describe why the fade transition could be the better approach in this project. 
+
+\begin{enumerate}
+	\item\textbf{Locating the cell coordinate of the board}\\
+    After doing some attempts of the Translate Transition, a difficulty is shown up that giving the translateX and translateY properties could actuate the game developing progress become much harder than Fade Transition. The target of the moving node cannot be specified clearly. Relatively, the fade transition does not have this issue at all. It only needs to change the node opacity to let the user observe a difference after a token is placed.  
+	
+	\item\textbf{Synchronized changing behaviour}\\
+	Given there are some action tokens that also need to do animation, some of them require switching to two tokens. Hence Fade Transition enables two nodes to do the animation simultaneously. However, even the Translate transition could also reach the same result, but it is more complex than the Fade transition.  
+
+\end{enumerate}
+
+
+\subsubsection{Realization description}
+
+From the above explanation of two types of animation, Fade Transition eventually be implemented to reduce the speed of running the whole code. We create a few methods of different Fade Transitions in JavFxGui in order to be invoked when the logic of placing a token is completed. And by passing the coordinate of the node, the image of the given node can be adjusted to the opacity from the Fade transition. Even in the case of using action tokens, the coordinate of two nodes can be passed as parameters to the animation method. and call twice Fade transition to complete the fading behavior. 
+
+

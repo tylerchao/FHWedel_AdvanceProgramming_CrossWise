@@ -1,0 +1,32 @@
+\subsection{The conversion between GSON and java object}
+
+\subsubsection{Problem analysis}
+In this project, creating a file to save and load the state of the whole game, and this file is recorded using GSON library. 
+
+Due to the expectation of the display format and the logical design of this game, a sequence of class objects is being used and some of them are documented in an array or a list. 
+
+However, during the implementation, an error is encountered, which is called java.lang.reflect.InaccessibleObjectException. The details of this error are that the java class object could not be binding or transferred. And moreover, this error also passed a piece of information that there is a java.util.Random object is tried to be serialized. 
+
+The following description analyze the solution to this issue:
+
+\paragraph{Save} \mbox{}\\
+In the file of saving action, there is a class Player being used to record the player's name, activated state, and the state of representing whether is manipulated by AI and the token hand. Because of the logic designing, each player will get a series of random tokens for his hand when the game is started. This hand becomes an unpredictable variable. It will be changed at every turn.  
+
+\paragraph{Load} \mbox{}\\
+Likewise, when a file is transferred and bound to the current java objects in the program. But the Player class contains several attributes and this player class is also being recorded as an array type. Thus, those attributed to the player cannot be straightly assigned to the file's object.  
+
+
+\subsubsection{Realization analysis}
+After considering a Player class contains several attributes, those attributes must have corresponding binding objects to allow the program to record their current value of them. Thus, the following solution "inner class " is precisely the lack of the clue of this converting method.
+ 
+\begin{enumerate}
+	\item\textbf{Inner class}\\
+Creating an Inner class in the class GraphDataJson that includes four essential elements, name of the player, activate state, the state of representing whether is manipulated by AI and the token hand.
+
+\end{enumerate}
+
+\subsubsection{Realization description}
+
+From the above possible solution, an inner class is created and one more vital procedure needs to be implemented.
+In the method of transferring objects to the GSON format, those attributes need to be bound with the corresponding attributes in the main logic class instead of only transferring the class object Player.
+

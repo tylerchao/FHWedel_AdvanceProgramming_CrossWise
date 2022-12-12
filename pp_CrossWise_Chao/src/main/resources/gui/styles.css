@@ -1,0 +1,20 @@
+.style-grid {
+    -fx-background-color: white ;
+    -fx-padding: 0;
+
+}
+.style-grid-cell {
+    -fx-border-color: black;
+    -fx-border-width: 0 1 1 0;
+    -fx-background-color: transparent;
+}
+.style-grid-cell.first-row {
+    -fx-border-width: 1 1 1 0 ;
+
+}
+.style-grid-cell.first-column {
+    -fx-border-width: 0 1 1 1 ;
+}
+.style-grid-cell.first-row.first-column {
+    -fx-border-width: 1 ;
+}

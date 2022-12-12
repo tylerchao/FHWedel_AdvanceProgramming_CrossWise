@@ -1,0 +1,52 @@
+\subsection{Data structure of players' hands}
+
+\subsubsection{Problem analysis}
+The playing hand consists of four random tokens, which can be used to proceed with a game. In each round of the game, a token could be removed from the hand and another token could be added. Until the game approaches the end, each hand's total length may not remain at four. Moreover, the hand element always needs to be updated in each round, and also each token is able to be adjustably utilized. Thus, a data structure for adopting to build a hand should consider the following conditions.  
+
+\begin{enumerate}
+	
+   \item Although the length of the hand is fixed in the beginning, the data structure should be able to adjust the size when the game approaches the end. 
+   
+   \item  A data structure should involve some characteristic that can easily access the element of the hand,  for example.,  the ability to remove, insert, and get the element from the index.
+
+\end{enumerate}
+
+\paragraph{Array} \mbox{}\\
+
+An array is created to hold a fixed number of values of a single type. The length of an array is determined when the array is created. Therefore, in this case, a hand can give a fixed length to the array and put token elements into the array. However,  in this game, hand length cannot always be the same. It can be less than the original size of the array. As this situation happens, the way to solve this is that keeps the array has still existed and the empty position of the array can be assigned as null. 
+
+In addition, A good point by using an array to construct a hand is that it is much easier to get the token element by calling the index. However, there is an issue need to be noticed. While one token element is removed from the array, the index of the removed element should be recorded in order to store put another token into it. Alternatively, there can be another way to do it every time a token is being removed and the array must be sorted. This is helpful to insert a new token at the end of the array instead of recoding the index of the removed token. 
+
+
+\paragraph{LinkedList} \mbox{}\\
+
+ A Linked list is a linear data structure in that elements are stored by using pointers. In other words, a linked list consists of several nodes, and a node contains a data field and a reference to the next node. With the help of the linked list structure, a hand can be designed as a linked list and each token is the node of the list. Each node is linked to each by using the link and reference. 
+
+The advantage of the linked list structure is that there is no need to establish a fixed size for the linked list. The length of the linked list is relatively flexible. Nevertheless, a downside of the linked list is to access elements. If a token need to be taken and placed on the board game, it must be gotten by using a pointer from the first node of the linked list and moving down until reaching the target that is required.
+
+\paragraph{ArrayList} \mbox{}\\
+
+An ArrayList is using a dynamic array for storing the elements. It can be treated as a traditional array except it has no size limit. Also, the ArrayList allows random access by calling the array of the index and it also implements the List interface so the user can use the method of the List interface.
+
+Based on the condition of the hand structure here,  those characteristics of ArrayList are fulfilled with the condition of this hand structure.    
+
+
+\subsubsection{Realization analysis}
+An ArrayList structure is suitable for the players' hand structure. It contains many different methods to be utilized. Here have some methods that can be used frequently in this project.
+Those methods are shown and introduced below: 
+
+\begin{enumerate}
+	\item\textbf{add(int index, E element)}\\
+An add() method can insert a specified element at the specified position in the ArrayList. This method can be used to add any new Token to the hand. 
+
+	\item\textbf{remove(int index)}\\
+A remove() method can remove an element at the specified position in the ArrayList. Once a token is chosen in a hand and it needs to be removed from the hand, this method can be called by giving a specific index.  
+	
+	\item\textbf{toArray()}\\
+A toArray() method contains all of the elements in the ArrayList in proper sequence. This method is useful to check each element in an array and also can be used to display in the toString() method in order to show elements of each hand.  
+
+\end{enumerate}
+
+\subsubsection{Realization description}
+A packed class is being created as a superclass of a hand class. In the pack class,  the ArrayList structure is being used and called in the pack's constructor. A hand class can straightly inherit all the methods including the Arraylist of the pack class. The length of the ArrayList can be passed as a parameter in a pack construe. Therefore, Every time user creates a hand object with a specific size of the ArrayList. Once the game happens near the end, a length size can be decreased from the parameter of the constructor to create a new array list.  
+ 

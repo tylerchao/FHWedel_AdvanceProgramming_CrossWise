@@ -1,0 +1,16 @@
+\newpage
+\subsection{During the game}
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{p{7cm}@{\hskip 5mm}  p{7cm}} 
+		\toprule
+		Test case   & Result   \\ 
+		\midrule
+		\midrule
+        While no token on the board, the player holds four action tokens. There is a created testing file in the folder "During the game". After creating a new game, select the Load menu button and choose "No available token".  & The expectation is that the current player can still click or drag the token on hand in attempting. However, a warning alert pops out that No available token for the player, and please start a new game.  The result is shown as expected because the current player cannot do anything and the game should be restarted.   \\ 
+        \midrule
+        Players' hand has three replace token and no symbol token. A warning window appeared to aware the player cannot play further. For this test case, there is an external file created as the name "All replace token". & The expectation is that the player's hand will show three replaced tokens and one empty blank. However, the final result show four replace tokens. But the warning window has shown successfully. The purpose of this test is still worked as expected. \\
+		\bottomrule
+	\end{tabular}
+\end{table}

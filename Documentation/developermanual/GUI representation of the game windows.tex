@@ -1,0 +1,33 @@
+\subsection{GUI representation of the game windows}
+\subsubsection{Problem analysis}
+
+Considering the fluent game-playing process, the setting of the player name or whether some AI players are participating must be decided at the beginning. Thus, how to manage those setting is an issue. There are two ways to implement it,  either in one- window or in a separate window. 
+
+\paragraph{All in One window} \mbox{}\\
+
+An ideal all-in-one window is that selecting the player amount and input player name can be determined in the main interface. All the possible situations for the human players and computer players are created in the menu bar by using the menu item. The advantage of this option is that all the game settings can be determined in one window. However, after during the game for a while, once users want to change their name and chooser another mode of the game, the previous setting will disappear. 
+
+\paragraph{Tow separated windows} \mbox{}\\
+
+An ideal of this situation is using two windows to represent the whole game running. One is for selecting the player's amount, determining the human player or the computer player, and also available to input the player's name. Another window is used to display the whole game field which is the main interface of the whole game. The first window can be invoked from the menu bar of the second game interface which named as "New game".    
+
+\subsubsection{Realization analysis}
+
+To solve the difficulty of switching the players' related settings, it is achievable and possible to manage all initial settings in the two windows. Here include several workable realizations below: 
+
+\begin{enumerate}
+	\item\textbf{UserInterfacePlayer.fxml}\\
+    In order to initiate the player setting, an FXML interface needs to be created which means an additional scene builder has to be used. Many elements of the items will be managed properly on this scene builder, for example, GridPane, Label and CheckBox, and so on.  
+	
+	\item\textbf{Stage}\\
+    A Stage class is used to invoke an owner window. In this problem consideration, we will use the Stage class to invoke the second window for initializing the player settings. After the player setting is done, a Stage object also will be used to switch back to the primary interface. 
+	
+	\item\textbf{CheckBox}\\
+    According to different modes of the player setting, we need to decide which player is played by a Bot or a Human. Thus, a checkBox item can be used to determine this option. Each player has a checkBox item to let the user decide except for the first player. The first player must always be played by humans. 
+
+	
+\end{enumerate}
+
+\subsubsection{Realization description}
+
+The primary window has one branch from the menu bar. The one is originally responsible for the fundamental configuration (e.g., New game, save game, and close game.). The second window is invoked from the new game options. when the new game item is pressed, the second window will be shown up and replace every content of the first window. In the second interface of the players-related setting, there are four labels for four players, for example, player1, player2, player, and player4. Each label has a text field after itself, and the player's name can be input into it. The last column of this player setting has three checkboxes to decide human player or a Bot Player. During the game playing, the user can reselect the desired case from the second window. This two-separated-window setting does not increase the difficulty for the designer and even simplifies the data passing process of the players' names. 

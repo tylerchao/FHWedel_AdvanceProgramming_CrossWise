@@ -1,0 +1,29 @@
+\subsection{Test Save}
+
+The purpose of this test case is that a game has been started to play and store as a JSON file by saving. And those saved files need to be invoked and loaded to ensure the game situation is displayed as the same. Thus, there are few external files that have been created in advance.\\  
+
+
+Following the step below to load the specific test case :
+
+\begin{itemize}
+	\item Check the folder "Test Save".
+	\item Select the specific case.
+\end{itemize}
+
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{p{7cm}@{\hskip 5mm}  p{7cm}} 
+		\toprule
+		Test case   & Result   \\ 
+		\midrule
+		\midrule
+    	From JSON format, a hand token contains null. & The expectation is that the GUI will display the null expression on this hand. For example. there is no image on the required position. However, the result did not show as expected. The position of the null still has an image on it. This image is the same as the image of the one smaller index position. But one noticeable point of the null token is that even if the null position has an image, the human player cannot do any action in this area. Hence, the null position will not cause a NullPointer exception at last. \\ 
+    	\midrule
+        Test a saved file in two players. When a game with only two players is stored in JSON format, the third player and fourth player have not been activated. Then their hand also has no Token. Nevertheless, the syntax of the token hand will be stored as empty. This test case needs to ensure those empty hands could be transferred and bounded. & The expectation is that due to the third player and fourth player do not attend the game, the game must not show the GUI display. And also the turn of the player will only switch between first and second. 
+        The result is entirely shown as expected.  \\
+        \midrule
+       Test case for customized used action token. The display of the remaining action token must not as the same as the content of the used toke array. & The expectation of this test case is that there is one action token is being used for Shifter, Exchange, and Replacer. But the removed token stays the same. Therefore, the display number of the action token must be {3, 2, 2, 2}. In comparison, the customized used action token array is {0, 1, 1, 1}. Fortunately, the results show as expected. \\
+		\bottomrule
+	\end{tabular}
+\end{table}

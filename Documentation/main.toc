@@ -1,0 +1,96 @@
+\contentsline {chapter}{\numberline {1}User manual}{4}{}%
+\contentsline {section}{\numberline {1.1}Requirements}{4}{}%
+\contentsline {section}{\numberline {1.2}Program installation/start}{4}{}%
+\contentsline {section}{\numberline {1.3}Operating instructions}{4}{}%
+\contentsline {subsection}{\numberline {1.3.1}The game description}{4}{}%
+\contentsline {subsubsection}{\numberline {1.3.1.1}Token}{5}{}%
+\contentsline {subsubsection}{\numberline {1.3.1.2}Scoring Points}{6}{}%
+\contentsline {subsubsection}{\numberline {1.3.1.3}Player Mode}{6}{}%
+\contentsline {subsubsection}{\numberline {1.3.1.4}The condition of winning a game}{6}{}%
+\contentsline {subsection}{\numberline {1.3.2}Game Interface}{7}{}%
+\contentsline {subsubsection}{\numberline {1.3.2.1}Main Interface}{7}{}%
+\contentsline {subsubsection}{\numberline {1.3.2.2}Secondary Interface}{12}{}%
+\contentsline {subsection}{\numberline {1.3.3}The Operation}{13}{}%
+\contentsline {subsubsection}{\numberline {1.3.3.1}Before beginning of the game}{13}{}%
+\contentsline {subsubsection}{\numberline {1.3.3.2}Game start}{13}{}%
+\contentsline {subsubsection}{\numberline {1.3.3.3}End the game}{15}{}%
+\contentsline {section}{\numberline {1.4}Error messages}{16}{}%
+\contentsline {subsection}{\numberline {1.4.1}During the game}{16}{}%
+\contentsline {subsection}{\numberline {1.4.2}Load and Save}{17}{}%
+\contentsline {subsection}{\numberline {1.4.3}Stop AI running}{18}{}%
+\contentsline {subsection}{\numberline {1.4.4}No available hand token}{19}{}%
+\contentsline {chapter}{\numberline {2}Developer manual}{20}{}%
+\contentsline {section}{\numberline {2.1}Development configuration}{20}{}%
+\contentsline {section}{\numberline {2.2}Problem analysis and realization}{20}{}%
+\contentsline {subsection}{\numberline {2.2.1}GUI representation of the game windows}{21}{}%
+\contentsline {subsubsection}{\numberline {2.2.1.1}Problem analysis}{21}{}%
+\contentsline {paragraph}{\numberline {2.2.1.1.1}All in One window}{21}{}%
+\contentsline {paragraph}{\numberline {2.2.1.1.2}Tow separated windows}{21}{}%
+\contentsline {subsubsection}{\numberline {2.2.1.2}Realization analysis}{21}{}%
+\contentsline {subsubsection}{\numberline {2.2.1.3}Realization description}{22}{}%
+\contentsline {subsection}{\numberline {2.2.2}Passing data between two windows}{22}{}%
+\contentsline {subsubsection}{\numberline {2.2.2.1}Problem analysis}{22}{}%
+\contentsline {paragraph}{\numberline {2.2.2.1.1}A class Controller }{22}{}%
+\contentsline {paragraph}{\numberline {2.2.2.1.2}The singleton pattern}{22}{}%
+\contentsline {subsubsection}{\numberline {2.2.2.2}Realization analysis}{22}{}%
+\contentsline {subsubsection}{\numberline {2.2.2.3}Realization description}{23}{}%
+\contentsline {subsection}{\numberline {2.2.3}Data structure of players' hands}{23}{}%
+\contentsline {subsubsection}{\numberline {2.2.3.1}Problem analysis}{23}{}%
+\contentsline {paragraph}{\numberline {2.2.3.1.1}Array}{23}{}%
+\contentsline {paragraph}{\numberline {2.2.3.1.2}LinkedList}{24}{}%
+\contentsline {paragraph}{\numberline {2.2.3.1.3}ArrayList}{24}{}%
+\contentsline {subsubsection}{\numberline {2.2.3.2}Realization analysis}{24}{}%
+\contentsline {subsubsection}{\numberline {2.2.3.3}Realization description}{25}{}%
+\contentsline {subsection}{\numberline {2.2.4}A moving animation for board}{25}{}%
+\contentsline {subsubsection}{\numberline {2.2.4.1}Problem analysis}{25}{}%
+\contentsline {paragraph}{\numberline {2.2.4.1.1}Translate Transition}{25}{}%
+\contentsline {paragraph}{\numberline {2.2.4.1.2}Fade Transition}{25}{}%
+\contentsline {subsubsection}{\numberline {2.2.4.2}Realization analysis}{25}{}%
+\contentsline {subsubsection}{\numberline {2.2.4.3}Realization description}{26}{}%
+\contentsline {subsection}{\numberline {2.2.5}The conversion between GSON and java object}{26}{}%
+\contentsline {subsubsection}{\numberline {2.2.5.1}Problem analysis}{26}{}%
+\contentsline {paragraph}{\numberline {2.2.5.1.1}Save}{26}{}%
+\contentsline {paragraph}{\numberline {2.2.5.1.2}Load}{26}{}%
+\contentsline {subsubsection}{\numberline {2.2.5.2}Realization analysis}{27}{}%
+\contentsline {subsubsection}{\numberline {2.2.5.3}Realization description}{27}{}%
+\contentsline {subsection}{\numberline {2.2.6}Reducing the velocity of executing a game}{28}{}%
+\contentsline {subsubsection}{\numberline {2.2.6.1}Problem analysis}{28}{}%
+\contentsline {paragraph}{\numberline {2.2.6.1.1}GUI animating}{28}{}%
+\contentsline {paragraph}{\numberline {2.2.6.1.2}Logic waiting}{28}{}%
+\contentsline {subsubsection}{\numberline {2.2.6.2}Realization analysis}{28}{}%
+\contentsline {subsubsection}{\numberline {2.2.6.3}Realization description}{29}{}%
+\contentsline {section}{\numberline {2.3}Program organization plan}{30}{}%
+\contentsline {subsection}{\numberline {2.3.1}The package of GUI}{30}{}%
+\contentsline {subsubsection}{\numberline {2.3.1.1}UserInterface Controller and UserInterface Player}{30}{}%
+\contentsline {subsubsection}{\numberline {2.3.1.2}JavaFxGUI}{31}{}%
+\contentsline {subsection}{\numberline {2.3.2}The package of Logic}{32}{}%
+\contentsline {subsubsection}{\numberline {2.3.2.1}Game Logic}{32}{}%
+\contentsline {paragraph}{\numberline {2.3.2.1.1}Human}{33}{}%
+\contentsline {paragraph}{\numberline {2.3.2.1.2}AI logic}{33}{}%
+\contentsline {subsubsection}{\numberline {2.3.2.2}Game board}{34}{}%
+\contentsline {subsubsection}{\numberline {2.3.2.3}Player}{34}{}%
+\contentsline {subsubsection}{\numberline {2.3.2.4}Pack and Hand }{34}{}%
+\contentsline {subsubsection}{\numberline {2.3.2.5}Enum Token }{35}{}%
+\contentsline {subsubsection}{\numberline {2.3.2.6}Move and Position}{35}{}%
+\contentsline {subsubsection}{\numberline {2.3.2.7}GraphDataJson}{35}{}%
+\contentsline {section}{\numberline {2.4}Files}{36}{}%
+\contentsline {subsection}{\numberline {2.4.1}Save and Load File}{36}{}%
+\contentsline {subsubsection}{\numberline {2.4.1.1}Save}{36}{}%
+\contentsline {subsubsection}{\numberline {2.4.1.2}Load}{36}{}%
+\contentsline {subsection}{\numberline {2.4.2}Log File}{37}{}%
+\contentsline {section}{\numberline {2.5}Program testing}{38}{}%
+\contentsline {subsection}{\numberline {2.5.1}AI algorithm}{38}{}%
+\contentsline {subsubsection}{\numberline {2.5.1.1}Symbol Token}{38}{}%
+\contentsline {subsubsection}{\numberline {2.5.1.2}Remove Token}{39}{}%
+\contentsline {subsubsection}{\numberline {2.5.1.3}Shifter Token}{40}{}%
+\contentsline {subsubsection}{\numberline {2.5.1.4}Exchange Token}{41}{}%
+\contentsline {subsubsection}{\numberline {2.5.1.5}Replace Token}{42}{}%
+\contentsline {subsection}{\numberline {2.5.2}Test Load}{43}{}%
+\contentsline {subsection}{\numberline {2.5.3}Test Save}{44}{}%
+\contentsline {subsection}{\numberline {2.5.4}The restriction of different tokens and the duration of highlighting the test }{45}{}%
+\contentsline {subsubsection}{\numberline {2.5.4.1}Remove Token}{45}{}%
+\contentsline {subsubsection}{\numberline {2.5.4.2}Shifter Token}{46}{}%
+\contentsline {subsubsection}{\numberline {2.5.4.3}Exchange Token}{47}{}%
+\contentsline {subsubsection}{\numberline {2.5.4.4}Replace Token}{48}{}%
+\contentsline {subsection}{\numberline {2.5.5}During the game}{49}{}%
+\contentsline {subsection}{\numberline {2.5.6}End the game}{50}{}%
