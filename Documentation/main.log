@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.15)  6 NOV 2022 22:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.15)  18 JUN 2023 22:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -338,7 +338,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 {d:/Latex/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./image/f
-hw.pdf>]) (./main.toc)
+hw.pdf>]) (./main.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 2.
+)
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
@@ -362,30 +367,19 @@ Chapter 1.
 (./usermanual.tex (./usermanual/The game description.tex [4
 
 ]
-
-LaTeX Warning: Reference `fig:symbol tokens' on page 5 undefined on input line 
-15.
-
 <image/Symbol tokens.png, id=25, 742.57425pt x 151.16475pt>
 File: image/Symbol tokens.png Graphic file (type png)
 <use image/Symbol tokens.png>
 Package pdftex.def Info: image/Symbol tokens.png  used on input line 19.
 (pdftex.def)             Requested size: 341.43436pt x 69.50432pt.
-
-LaTeX Warning: Reference `fig:action tokens' on page 5 undefined on input line 
-26.
-
 <image/Action tokens.png, id=27, 492.03825pt x 158.994pt>
 File: image/Action tokens.png Graphic file (type png)
 <use image/Action tokens.png>
 Package pdftex.def Info: image/Action tokens.png  used on input line 44.
 (pdftex.def)             Requested size: 256.0774pt x 82.7477pt.
 
+
 LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `tab:scoringPoints' on page 5 undefined on input line 
-52.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -395,12 +389,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[5 <./image/Symbol tokens.png>]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 56.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 56.
-) (./usermanual/Game Interface.tex
+[5 <./image/Symbol tokens.png>]) (./usermanual/Game Interface.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -410,11 +399,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [6 <./image/Action tokens.png>]
-
-LaTeX Warning: Reference `fig:settingMenu' on page 7 undefined on input line 10
-.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
@@ -433,15 +417,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [7 <./image/settingMenu.png>]
-
-LaTeX Warning: Reference `fig:optionsMenu' on page 8 undefined on input line 38
-.
-
 <image/OptionsMenu.png, id=41, 268.6035pt x 188.50426pt>
 File: image/OptionsMenu.png Graphic file (type png)
 <use image/OptionsMenu.png>
 Package pdftex.def Info: image/OptionsMenu.png  used on input line 59.
 (pdftex.def)             Requested size: 213.39566pt x 149.76236pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -451,15 +432,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [8 <./image/OptionsMenu.png>]
-
-LaTeX Warning: Reference `fig:chessboard' on page 9 undefined on input line 68.
-
-
 <image/chess board.png, id=45, 694.595pt x 653.44125pt>
 File: image/chess board.png Graphic file (type png)
 <use image/chess board.png>
 Package pdftex.def Info: image/chess board.png  used on input line 72.
 (pdftex.def)             Requested size: 256.0774pt x 240.91199pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -469,24 +447,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [9 <./image/chess board.png>]
-
-LaTeX Warning: Reference `fig:playerhand' on page 10 undefined on input line 79
-.
-
 <image/players' hands.png, id=50, 1195.1049pt x 845.0772pt>
 File: image/players' hands.png Graphic file (type png)
 <use image/players' hands.png>
 Package pdftex.def Info: image/players' hands.png  used on input line 84.
 (pdftex.def)             Requested size: 341.43436pt x 241.42976pt.
-
-LaTeX Warning: Reference `fig:scoring points' on page 10 undefined on input lin
-e 91.
-
 <image/scoring points.png, id=51, 625.33624pt x 236.885pt>
 File: image/scoring points.png Graphic file (type png)
 <use image/scoring points.png>
 Package pdftex.def Info: image/scoring points.png  used on input line 95.
 (pdftex.def)             Requested size: 341.43436pt x 129.34373pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -496,34 +467,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [10 <./image/players' hands.png> <./image/scoring points.png>]
-
-LaTeX Warning: Reference `fig:teamscore' on page 11 undefined on input line 103
-.
-
 <image/two teams score.png, id=57, 616.3025pt x 144.54pt>
 File: image/two teams score.png Graphic file (type png)
 <use image/two teams score.png>
 Package pdftex.def Info: image/two teams score.png  used on input line 107.
 (pdftex.def)             Requested size: 341.43436pt x 80.07727pt.
-
-LaTeX Warning: Reference `fig:currentPlayer' on page 11 undefined on input line
- 113.
-
 <image/current Player.png, id=58, 625.33624pt x 58.2175pt>
 File: image/current Player.png Graphic file (type png)
 <use image/current Player.png>
 Package pdftex.def Info: image/current Player.png  used on input line 117.
 (pdftex.def)             Requested size: 341.43436pt x 31.78786pt.
-
-LaTeX Warning: Reference `fig:the demonstration of action token' on page 11 und
-efined on input line 125.
-
 <image/the demonstration of Action token.png, id=59, 628.3475pt x 365.365pt>
 File: image/the demonstration of Action token.png Graphic file (type png)
 <use image/the demonstration of Action token.png>
 Package pdftex.def Info: image/the demonstration of Action token.png  used on i
 nput line 129.
 (pdftex.def)             Requested size: 256.0774pt x 148.89746pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -534,24 +494,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [11 <./image/two teams score.png> <./image/current Player.png> <./image/the dem
 onstration of Action token.png>]
-
-LaTeX Warning: Reference `fig:secondWindowMenu' on page 12 undefined on input l
-ine 141.
-
 <image/secondWindowMenu.png, id=66, 455.90324pt x 326.4195pt>
 File: image/secondWindowMenu.png Graphic file (type png)
 <use image/secondWindowMenu.png>
 Package pdftex.def Info: image/secondWindowMenu.png  used on input line 145.
 (pdftex.def)             Requested size: 256.0774pt x 183.35649pt.
-
-LaTeX Warning: Reference `fig:playerScene' on page 12 undefined on input line 1
-53.
-
 <image/Player scene.png, id=67, 1195.1049pt x 845.0772pt>
 File: image/Player scene.png Graphic file (type png)
 <use image/Player scene.png>
 Package pdftex.def Info: image/Player scene.png  used on input line 157.
 (pdftex.def)             Requested size: 256.0774pt x 181.0691pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -580,10 +533,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [14]
-
-LaTeX Warning: Reference `fig:winnerMessage' on page 15 undefined on input line
- 65.
-
 <image/winner message.png, id=79, 270.41025pt x 158.994pt>
 File: image/winner message.png Graphic file (type png)
 <use image/winner message.png>
@@ -732,14 +681,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [19 <./image/NoToken.png>]
 Chapter 2.
-(./developermanual.tex
+(./developermanual.tex [20
 
-LaTeX Warning: Reference `tab:software version' on page 20 undefined on input l
-ine 3.
-
-[20
-
-] (./developermanual/GUI representation of the game windows.tex
+]
+(./developermanual/GUI representation of the game windows.tex
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
@@ -854,10 +799,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [28]
-
-LaTeX Warning: Reference `fig:StructureOfCallback' on page 29 undefined on inpu
-t line 36.
-
 <image/StructureOfCallback.png, id=135, 367.701pt x 528.009pt>
 File: image/StructureOfCallback.png Graphic file (type png)
 <use image/StructureOfCallback.png>
@@ -879,10 +820,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [29 <./image/StructureOfCallback.png>] (./developermanual/GUI.tex
-
-LaTeX Warning: Reference `fig:guiPackage' on page 30 undefined on input line 10
-.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -912,16 +849,12 @@ File: image/diagram_3.png Graphic file (type png)
 <use image/diagram_3.png>
 Package pdftex.def Info: image/diagram_3.png  used on input line 5.
 (pdftex.def)             Requested size: 341.43436pt x 318.6027pt.
-
-
-LaTeX Warning: Reference `fig:gameLogic' on page 32 undefined on input line 14.
-
-
 <image/diagram_4.png, id=152, 312.951pt x 226.446pt>
 File: image/diagram_4.png Graphic file (type png)
 <use image/diagram_4.png>
 Package pdftex.def Info: image/diagram_4.png  used on input line 26.
 (pdftex.def)             Requested size: 341.43436pt x 247.0631pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -943,15 +876,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [33 <./image/diagram_4.png>]
-
-LaTeX Warning: Reference `fig:packAndHand' on page 34 undefined on input line 6
-6.
-
 <image/diagram_5.png, id=161, 105.558pt x 105.558pt>
 File: image/diagram_5.png Graphic file (type png)
 <use image/diagram_5.png>
 Package pdftex.def Info: image/diagram_5.png  used on input line 70.
 (pdftex.def)             Requested size: 128.0387pt x 128.0509pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -961,38 +891,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [34 <./image/diagram_5.png>]
-
-LaTeX Warning: Reference `fig:enumToken' on page 35 undefined on input line 78.
-
-
 <image/sequenceOfEnumTokens.png, id=166, 632.3625pt x 77.53969pt>
 File: image/sequenceOfEnumTokens.png Graphic file (type png)
 <use image/sequenceOfEnumTokens.png>
 Package pdftex.def Info: image/sequenceOfEnumTokens.png  used on input line 82.
 
 (pdftex.def)             Requested size: 341.43436pt x 41.86723pt.
-
-LaTeX Warning: Reference `fig:moveAndPosition' on page 35 undefined on input li
-ne 89.
-
 <image/diagram_6.png, id=167, 109.719pt x 95.046pt>
 File: image/diagram_6.png Graphic file (type png)
 <use image/diagram_6.png>
 Package pdftex.def Info: image/diagram_6.png  used on input line 93.
 (pdftex.def)             Requested size: 128.0387pt x 110.93071pt.
-
-LaTeX Warning: Reference `fig:GraphDataJson' on page 35 undefined on input line
- 101.
-
 <image/diagram_7.png, id=168, 289.737pt x 51.246pt>
 File: image/diagram_7.png Graphic file (type png)
 <use image/diagram_7.png>
 Package pdftex.def Info: image/diagram_7.png  used on input line 105.
 (pdftex.def)             Requested size: 256.0774pt x 45.29521pt.
 ) (./developermanual/Save and Load File.tex
-
-LaTeX Warning: Reference `fig: JSONFile' on page 35 undefined on input line 2.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1008,19 +923,7 @@ File: image/JSON format.png Graphic file (type png)
 <use image/JSON format.png>
 Package pdftex.def Info: image/JSON format.png  used on input line 7.
 (pdftex.def)             Requested size: 341.43436pt x 191.87544pt.
-
-
-LaTeX Warning: Reference `fig: JSONFile' on page 36 undefined on input line 23.
-
-
-
-LaTeX Warning: Reference `fig: JSONFile' on page 36 undefined on input line 28.
-
-
 ) (./developermanual/Log File.tex
-
-LaTeX Warning: Reference `fig: logFile' on page 36 undefined on input line 3.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1182,28 +1085,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[50] (./main.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+[50] (./main.aux) ) 
 Here is how much of TeX's memory you used:
  4450 strings out of 478238
  76872 string characters out of 5844945
- 376101 words of memory out of 5000000
+ 378387 words of memory out of 5000000
  22540 multiletter control sequences out of 15000+600000
  475378 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,13n,62p,1031b,428s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{d:/Latex/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<
-d:/Latex/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/
-Latex/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/Late
-x/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><d:/Latex/te
-xlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (51 pages, 1484034 bytes).
+{d:/Latex/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/c
+m-super-ts1.enc}<d:/Latex/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmbx12.pfb><d:/Latex/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr12.pfb><d:/Latex/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17
+.pfb><d:/Latex/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb
+>
+Output written on main.pdf (51 pages, 1485778 bytes).
 PDF statistics:
  249 PDF objects out of 1000 (max. 8388607)
  131 compressed objects within 2 object streams
