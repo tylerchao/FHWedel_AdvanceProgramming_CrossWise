@@ -13,4 +13,4 @@ Additionally, there are subsequent sections that provide comprehensive details r
 
 # Project Structure
 
-![structure of the project](Documentation/image/diagram_1.png)
+<img src="Documentation/image/diagram_1.png" width="500" height="600">
