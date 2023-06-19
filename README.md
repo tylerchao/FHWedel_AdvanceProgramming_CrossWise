@@ -2,7 +2,7 @@
 
 <img src="crosswise.png" width="1000" height="500">
 
-# Project Description
+## Project Description
 CrossWise is a straightforward 6x6 board game designed for a maximum of four players, divided into two teams: the Vertical Team and the Horizontal Team. The game always splits these two teams against each other. The Vertical Team exclusively focuses on the vertical lines of the game board, while the Horizontal Team concentrates on the horizontal lines.
 
 At the start of the game, each player possesses four tokens in their hand. In every round, players have the opportunity to strategically place a token on the chess board or utilize a functional token to advance their objectives.
@@ -11,11 +11,11 @@ Additionally, there are subsequent sections that provide comprehensive details r
 
 See the documentation of `crosswise.pdf` for details.
 
-# Run the Game
+## Run the Game
 
 Download the jar file "pp_CrossWise_Chao-1.0-SNAPSHOT.jar" and execute it.
 
 
-# Project Structure
+## Project Structure
 
 <img src="Documentation/image/diagram_1.png" width="500" height="600">
