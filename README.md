@@ -13,4 +13,4 @@ Additionally, there are subsequent sections that provide comprehensive details r
 
 # Project Structure
 
-![img01.png](img01.png)
+![structure of the project](Documentation/image/diagram_1.png)
