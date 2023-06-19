@@ -10,12 +10,9 @@ Additionally, there are subsequent sections that provide comprehensive details r
 
 See the documentation of `crosswise.pdf` for details.
 
-# How to Install and Run the Project
+# Run the Game
 
-
-
-
-
+Download the jar file "pp_CrossWise_Chao-1.0-SNAPSHOT.jar" and execute it.
 
 
 # Project Structure
