@@ -1,5 +1,6 @@
 # CrossWise
 
+<img src="crosswise.png" width="1000" height="500">
 
 # Project Description
 CrossWise is a straightforward 6x6 board game designed for a maximum of four players, divided into two teams: the Vertical Team and the Horizontal Team. The game always splits these two teams against each other. The Vertical Team exclusively focuses on the vertical lines of the game board, while the Horizontal Team concentrates on the horizontal lines.
