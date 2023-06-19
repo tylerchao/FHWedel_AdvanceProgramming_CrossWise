@@ -8,7 +8,14 @@ At the start of the game, each player possesses four tokens in their hand. In ev
 
 Additionally, there are subsequent sections that provide comprehensive details regarding the game rules, the elements involved, and the conditions necessary for achieving victory.
 
+See the documentation of `crosswise.pdf` for details.
+
 # How to Install and Run the Project
+
+
+
+
+
 
 
 # Project Structure
